@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.12f1c1 (5887f62ce680) revision 5801974'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19042.1083; Version 2009; 64bit' Language: 'zh' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/github/PINTUZAIFramework/PINTUZAIFramework
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61243
+Successfully changed project path to: D:/github/PINTUZAIFramework/PINTUZAIFramework
+D:/github/PINTUZAIFramework/PINTUZAIFramework
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1c1 (5887f62ce680)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
+    Vendor:   
+    VRAM:     3990 MB
+    Driver:   27.21.14.6173
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003407 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 1.618500 ms (FindLiveObjects: 0.112400 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.412600 ms  DeleteObjects: 0.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/UIPanel
+  artifactKey: Guid(1c2553d437dcef54eaadccc1d46ff153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel using Guid(1c2553d437dcef54eaadccc1d46ff153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ba640842d1abc9bbe1582ea4ade20d') in 0.006981 seconds 
+  Import took 0.009244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.121901 seconds.
+  path: Assets/Resources/MainMenuPanel.prefab
+  artifactKey: Guid(ccbedba5ab2836a448fc3a1fa37196f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MainMenuPanel.prefab using Guid(ccbedba5ab2836a448fc3a1fa37196f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18424c2550f5771d055c2c1990b46451') in 0.057124 seconds 
+  Import took 0.060019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.477212 seconds.
+  path: Assets/Resources/UIPanel/TaskPanel.prefab
+  artifactKey: Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/TaskPanel.prefab using Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28f7ca6dee16f1a4e16fd8e309d4fc3') in 0.010563 seconds 
+  Import took 0.013453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.477516 seconds.
+  path: Assets/Resources/UIPanel/TaskPanel.prefab
+  artifactKey: Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/TaskPanel.prefab using Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324be1d454afbbcd679480408b59eff6') in 0.006103 seconds 
+  Import took 0.009080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.590080 seconds.
+  path: Assets/Prefabs/UI/CloseButton.prefab
+  artifactKey: Guid(62d854d066f7937499f5c5e5878b9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/CloseButton.prefab using Guid(62d854d066f7937499f5c5e5878b9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977a30fa7e3ee7e149411de439ad631') in 0.007884 seconds 
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.507662 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性 靴子 (2).png
+  artifactKey: Guid(85ced3cf792f8684e9a795cf15712432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性 靴子 (2).png using Guid(85ced3cf792f8684e9a795cf15712432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5c0faf95753799a6506a707290b402') in 0.064723 seconds 
+  Import took 0.067248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.475928 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性 靴子 (2).png
+  artifactKey: Guid(85ced3cf792f8684e9a795cf15712432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性 靴子 (2).png using Guid(85ced3cf792f8684e9a795cf15712432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a08493c14a2e0ddc902906b14c9159') in 0.038895 seconds 
+  Import took 0.041431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性翅膀 (2).png
+  artifactKey: Guid(4fdd3d9e63596dc47b184ea20dbe9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性翅膀 (2).png using Guid(4fdd3d9e63596dc47b184ea20dbe9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec1671a476a37c7de08d278eb984158') in 0.014888 seconds 
+  Import took 0.016958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性盔甲 (2).png
+  artifactKey: Guid(a92460bbd505024468ecfe3392aea108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性盔甲 (2).png using Guid(a92460bbd505024468ecfe3392aea108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7086eb9de21ccaa18dae79c62307f71b') in 0.016590 seconds 
+  Import took 0.020228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性武器 (2).png
+  artifactKey: Guid(13612c33fe0a8b6468c76075ac62a754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性武器 (2).png using Guid(13612c33fe0a8b6468c76075ac62a754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd986c5876a21bc43251a305b81ab9086') in 0.012501 seconds 
+  Import took 0.014810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性武器 (2).png
+  artifactKey: Guid(d984536fe368c474797cfb2428b7f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性武器 (2).png using Guid(d984536fe368c474797cfb2428b7f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf0fe832f779a0fcd69b0a2f1b05c54') in 0.015716 seconds 
+  Import took 0.018163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性项链 (1).png
+  artifactKey: Guid(a919227cba3ad404ab38a5938e805c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性项链 (1).png using Guid(a919227cba3ad404ab38a5938e805c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007cbc64afb3a55d2aa2c96df8e24af2') in 0.014831 seconds 
+  Import took 0.017244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性盔甲 (2).png
+  artifactKey: Guid(411610f26fd01a041a7bb25bf3b77cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性盔甲 (2).png using Guid(411610f26fd01a041a7bb25bf3b77cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070c1bb059c4666bbdc1fe5ccc8822ee') in 0.017274 seconds 
+  Import took 0.019800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性靴子 (2).png
+  artifactKey: Guid(9e58b1eaf940ad84f9a0f79d84439f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性靴子 (2).png using Guid(9e58b1eaf940ad84f9a0f79d84439f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2123a48bd34e1036897ed315b228b5f2') in 0.016029 seconds 
+  Import took 0.018200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性头盔 (2).png
+  artifactKey: Guid(815b235c08fb4524d95f54c7700505e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性头盔 (2).png using Guid(815b235c08fb4524d95f54c7700505e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133c8f41baf4ac654785bc55e36df807') in 0.014461 seconds 
+  Import took 0.016697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性戒指 (1).png
+  artifactKey: Guid(ef26fffa32a393047916d1edfa371d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性戒指 (1).png using Guid(ef26fffa32a393047916d1edfa371d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084a2b1d12ddb67cb9122d9041eed9c4') in 0.013449 seconds 
+  Import took 0.015833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性项链 (2).png
+  artifactKey: Guid(62e483754f21f6f45900e2a7e97ef16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性项链 (2).png using Guid(62e483754f21f6f45900e2a7e97ef16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594468694b5b7e663844d51ddfd14cce') in 0.015757 seconds 
+  Import took 0.018071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性戒指 (2).png
+  artifactKey: Guid(0f2967386ee862a47bb29769b134ed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性戒指 (2).png using Guid(0f2967386ee862a47bb29769b134ed48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26d61e470d10bfa08355138487a6442') in 0.014033 seconds 
+  Import took 0.016435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性手镯 (2).png
+  artifactKey: Guid(f15066a927c6b4d4fb8ff1941b0fd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性手镯 (2).png using Guid(f15066a927c6b4d4fb8ff1941b0fd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acf195d8af50497470491f2a8cb9ce0') in 0.019511 seconds 
+  Import took 0.022521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性 手镯  (2).png
+  artifactKey: Guid(7cdfcc024b32da147824e0b67048fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性 手镯  (2).png using Guid(7cdfcc024b32da147824e0b67048fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f4b04557819a98d0cb5f029d0d6954') in 0.015035 seconds 
+  Import took 0.017379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/女性帽子 (2).png
+  artifactKey: Guid(4bb59789ef52b2245a32ccd1c6bb5e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/女性帽子 (2).png using Guid(4bb59789ef52b2245a32ccd1c6bb5e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ac00658c9030bdc7dc9411bbb59fc8') in 0.015852 seconds 
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性翅膀 (1).png
+  artifactKey: Guid(0bfa33ddd7cf7554bae8b59ea7c353de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性翅膀 (1).png using Guid(0bfa33ddd7cf7554bae8b59ea7c353de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0a6f24a00a510a9a07aa47b5ebac76') in 0.014298 seconds 
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008720 seconds.
+  path: Assets/Sprites/002-mainmenu/装备/男性翅膀 (1).png
+  artifactKey: Guid(0bfa33ddd7cf7554bae8b59ea7c353de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/002-mainmenu/装备/男性翅膀 (1).png using Guid(0bfa33ddd7cf7554bae8b59ea7c353de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0a6f24a00a510a9a07aa47b5ebac76') in 0.015091 seconds 
+  Import took 0.017564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 1.611300 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.419100 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1155.197858 seconds.
+  path: Assets/Resources/UIPanel/KnapsackPanel.prefab
+  artifactKey: Guid(0f33db50c2379f84aaba814ebe91e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/KnapsackPanel.prefab using Guid(0f33db50c2379f84aaba814ebe91e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f938a5eaeabf69ce4c91870147ace02') in 0.037254 seconds 
+  Import took 0.041147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Resources/UIPanel/KnapsackPanel.prefab
+  artifactKey: Guid(0f33db50c2379f84aaba814ebe91e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/KnapsackPanel.prefab using Guid(0f33db50c2379f84aaba814ebe91e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f938a5eaeabf69ce4c91870147ace02') in 0.004162 seconds 
+  Import took 0.006314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.878221 seconds.
+  path: Assets/Resources/UIPanel/ItemMessagePanel.prefab
+  artifactKey: Guid(e5a47b12f4dead64aa102384c330867e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/ItemMessagePanel.prefab using Guid(e5a47b12f4dead64aa102384c330867e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6cec0c06a5fb0edf5a82c9df617d3d') in 0.008041 seconds 
+  Import took 0.010748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.339173 seconds.
+  path: Assets/Resources/UIPanel/TaskPanel.prefab
+  artifactKey: Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/TaskPanel.prefab using Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea54ce0317ee43abecf9c742c3a59a3') in 0.010465 seconds 
+  Import took 0.023903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002977 seconds.
+  path: Assets/Resources/UIPanel/TaskPanel.prefab
+  artifactKey: Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/TaskPanel.prefab using Guid(d446ce90585e55b46979659fe8ab706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea54ce0317ee43abecf9c742c3a59a3') in 0.006863 seconds 
+  Import took 0.009082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 629.627615 seconds.
+  path: Assets/Resources/UIPanel/SkillPanel.prefab
+  artifactKey: Guid(0cf5936ddbc835144a5adc8d0fffebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/SkillPanel.prefab using Guid(0cf5936ddbc835144a5adc8d0fffebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6c09cbddfe6f6fb9de5538b9a21e0d') in 0.010789 seconds 
+  Import took 0.013418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.821929 seconds.
+  path: Assets/Resources/UIPanel/ShopPanel.prefab
+  artifactKey: Guid(ff598d405b811c3459bb9b693df051bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/ShopPanel.prefab using Guid(ff598d405b811c3459bb9b693df051bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bd612c83e990e48198334754db3d77') in 0.010568 seconds 
+  Import took 0.012770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.508107 seconds.
+  path: Assets/Resources/UIPanel/SystemPanel.prefab
+  artifactKey: Guid(3defb817c1798324fb84ea3d419469a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPanel/SystemPanel.prefab using Guid(3defb817c1798324fb84ea3d419469a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd29e95d458abf1ed9e71b487918503') in 0.010296 seconds 
+  Import took 0.012601 seconds .
+

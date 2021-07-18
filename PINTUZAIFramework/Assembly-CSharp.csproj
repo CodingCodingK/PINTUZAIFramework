@@ -52,7 +52,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\UI\Panel\BasePanel.cs" />
+     <Compile Include="Assets\UIFramework\UIPanel\UIPanelType.cs" />
+     <Compile Include="Assets\UIFramework\Manager\UIManager.cs" />
+     <Compile Include="Assets\UIFramework\UIPanel\UIPanelInfo.cs" />
+     <Compile Include="Assets\SingletonLibrary\Scripts\MonoSingleton.cs" />
+     <Compile Include="Assets\SingletonLibrary\Test\Test.cs" />
+     <Compile Include="Assets\SingletonLibrary\Scripts\Singleton.cs" />
+     <Compile Include="Assets\UIFramework\Manager\GameRoot.cs" />
+     <Compile Include="Assets\UIFramework\Base\BasePanel.cs" />
+     <Compile Include="Assets\Scripts\ItemMessagePanel.cs" />
+     <Compile Include="Assets\Scripts\KnapsackPanel.cs" />
+     <Compile Include="Assets\Scripts\MainMenuPanel.cs" />
+     <Compile Include="Assets\Scripts\ShopPanel.cs" />
+     <Compile Include="Assets\Scripts\SkillPanel.cs" />
+     <Compile Include="Assets\Scripts\SystemPanel.cs" />
+     <Compile Include="Assets\Scripts\TaskPanel.cs" />
+     <Compile Include="Assets\UIFramework\Extension\DictionaryExtension.cs" />
      <None Include="Assets\Sprites\005-number combo\number_font.fnt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
