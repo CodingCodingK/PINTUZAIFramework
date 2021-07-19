@@ -106,6 +106,8 @@ GameObject:
   - component: {fileID: 150141059024160688}
   - component: {fileID: 150141059024160690}
   - component: {fileID: 150141059024160691}
+  - component: {fileID: 3595647608158412121}
+  - component: {fileID: -4654525719471128712}
   m_Layer: 5
   m_Name: SkillPanel
   m_TagString: Untagged
@@ -172,6 +174,30 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3595647608158412121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150141059024160689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75dc48b0eff47b44b9076c1b8c29cc35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &-4654525719471128712
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150141059024160689}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1014519084577215164
 PrefabInstance:
   m_ObjectHideFlags: 0

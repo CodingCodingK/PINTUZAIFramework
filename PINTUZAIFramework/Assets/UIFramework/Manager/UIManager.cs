@@ -105,19 +105,40 @@ public class UIManager:Singleton<UIManager>
          panelStack = new Stack<BasePanel>();
       }
       
+      
+      //if (panelStack.Contains(panel)) return;
+      // 将原先存在于栈顶的panel暂停掉
+      if (panelStack.Count > 0)
+      {
+         BasePanel topPanel = panelStack.Peek();
+         topPanel.OnPause();
+      }
       BasePanel panel = GetPanel(pt);
+      panel.OnEnter();
       panelStack.Push(panel);
    }
    
    /// <summary>
    /// 出栈，即panelStack弹出最上面的panel出栈
    /// </summary>
-   public void PopPanel(UIPanelType pt)
+   public void PopPanel()
    {
-      BasePanel panel = GetPanel(pt);
+      if (panelStack == null || panelStack.Count < 1) return;
       
+      BasePanel topPanel = panelStack.Pop();
+      topPanel.OnExit();
+
+      if (panelStack.Count < 1) return;
+     
+      BasePanel topPanel2 = panelStack.Peek();
+      topPanel2.OnResume();
    }
 
    #endregion
+
+   #region 业务逻辑
+
    
+
+   #endregion
 }

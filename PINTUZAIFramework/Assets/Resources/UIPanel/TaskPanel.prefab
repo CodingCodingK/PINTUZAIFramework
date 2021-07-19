@@ -106,6 +106,8 @@ GameObject:
   - component: {fileID: 1544869787186549163}
   - component: {fileID: 1544869787186549161}
   - component: {fileID: 1544869787186549160}
+  - component: {fileID: -735969145354860488}
+  - component: {fileID: 4646991701666682258}
   m_Layer: 5
   m_Name: TaskPanel
   m_TagString: Untagged
@@ -172,6 +174,30 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-735969145354860488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544869787186549162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8ac510b7237904aaba070be1ac8443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &4646991701666682258
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544869787186549162}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1833344547191424167
 PrefabInstance:
   m_ObjectHideFlags: 0
