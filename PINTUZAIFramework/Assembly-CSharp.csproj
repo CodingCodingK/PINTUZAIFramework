@@ -31,7 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -52,6 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\Scripts\SkillPanel.cs" />
      <Compile Include="Assets\Scripts\MainMenuPanel.cs" />
      <Compile Include="Assets\Scripts\KnapsackPanel.cs" />
@@ -60,27 +62,27 @@
      <Compile Include="Assets\UIFramework\UIPanel\UIPanelInfo.cs" />
      <Compile Include="Assets\UIFramework\UIPanel\UIPanelType.cs" />
      <Compile Include="Assets\SingletonLibrary\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
      <Compile Include="Assets\UIFramework\Extension\DictionaryExtension.cs" />
      <Compile Include="Assets\Scripts\ShopPanel.cs" />
      <Compile Include="Assets\SingletonLibrary\Test\Test.cs" />
      <Compile Include="Assets\UIFramework\Manager\GameRoot.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\UIFramework\Manager\UIManager.cs" />
      <Compile Include="Assets\UIFramework\Base\BasePanel.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Scripts\ItemMessagePanel.cs" />
      <Compile Include="Assets\Scripts\TaskPanel.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <None Include="Assets\mcs.rsp" />
      <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\Sprites\005-number combo\number_font.fnt" />
+     <None Include="Assets\csc.rsp" />
      <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
      <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
@@ -306,14 +308,14 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>

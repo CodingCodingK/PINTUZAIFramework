@@ -31,7 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -52,8 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -286,20 +286,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Antlr3.Runtime">
+ <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenProEditor">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
@@ -310,11 +301,20 @@
  <Reference Include="DemiEditor">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
  </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="unityplastic">
+ <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/github/PINTUZAIFramework/PINTUZAIFramework/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
